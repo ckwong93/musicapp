@@ -18,8 +18,8 @@ Ruby, Rails, React, Redux, PostgreSQL, socket.io, Spotify API, Soundcloud API, J
 + Newsfeed of friends
 
 ##Useful links:
-http://www.playlist-converter.net/#/  ---> song converter for soundcloud,spotify,youtube,csv
-http://wavelength.fm/r/music ---> similar in concept with chatrooms
+[Song converter for soundcloud, spotify, youtube, csv](http://www.playlist-converter.net/#/)<br>
+[Similar in concept with music sharing chatrooms](http://wavelength.fm/r/music)
 
 
 ##Wireframe: let’s draw it out on a whiteboard 
