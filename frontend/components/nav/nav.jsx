@@ -261,7 +261,7 @@ class Nav extends React.Component{
         <h1>TravelApp</h1>
         </Link>
 
-        <ul className="signuplogin">
+        <ul className="signuplogin group">
         <li>
         <button className="btn btn-primary" onClick={this.openSignUp}>
         Sign Up

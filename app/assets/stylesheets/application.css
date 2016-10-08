@@ -14,3 +14,19 @@
  *= require_self
  *= require reset
  */
+nav h1 {
+  float: left;
+}
+
+body {
+  overflow: hidden;
+}
+
+.signuplogin {
+  /*margin: .67em;*/
+  /*float: right;*/
+}
+
+.signuplogin > li {
+  float: left;
+}
