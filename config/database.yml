@@ -1,16 +1,8 @@
-# development:
-#   adapter: postgresql
-#   database: openseat1
-#   host: 127.0.0.1
-#   pool: 5
-#   timeout: 5000
-
-
 development:
   adapter: postgresql
   host: localhost
   encoding: unicode
-  database: postgres
+  database: travelapp
   username: postgres
   password: 123321
   pool: 5
@@ -18,7 +10,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: postgres
+  database: travelapp
   username: postgres
   password: 123321
   pool: 5
@@ -26,7 +18,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: postgres
+  database: travelapp
   username: postgres
   password: 123321
   pool: 5

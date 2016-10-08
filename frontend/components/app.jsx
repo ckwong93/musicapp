@@ -1,9 +1,11 @@
 import React from 'react';
+import NavContainer from './nav/nav_container';
 
 const App = ({children}) => {
   return(
     <div>
-    Hello world!
+      <NavContainer/>
+      {children}
     </div>
   );
 };
