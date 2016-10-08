@@ -4,6 +4,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 //Components
 import App from '../app';
 import NavContainer from '../nav/nav_container';
+import HomeContainer from '../home/home_container';
 
 class AppRouter extends React.Component{
   constructor(props){
@@ -31,7 +32,7 @@ class AppRouter extends React.Component{
     return(
       <Router history={ hashHistory }>
         <Route path="/" component={ App }>
-
+        <IndexRoute component={ HomeContainer } />
         </Route>
       </Router>
     );
