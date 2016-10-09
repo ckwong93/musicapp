@@ -30,3 +30,64 @@ body {
 .signuplogin > li {
   float: left;
 }
+
+.globe{
+	height:60%;
+	width: 60%;
+	float: right;
+}
+
+.title-top{
+	padding-left: 5%;
+	padding-top: 13%;
+	font-size: 90px;
+	color: white;
+	font-family: 'Galada';
+	margin: 0px;
+	line-height: 85%;
+  text-shadow: 5px 7.5px 15px rgba(0, 0, 0, 0.27);
+
+}
+.title-second{
+	padding-left: 7%;
+	font-size: 90px;
+	color: white;
+	font-family: 'Galada';
+	margin: 0px;
+  text-shadow: 5px 7.5px 15px rgba(0, 0, 0, 0.27);
+	line-height: 85%;
+}
+.title-third{
+	padding-left: 9%;
+	font-size: 90px;
+	color: white;
+	font-family: 'Galada';
+	margin: 0px;
+	line-height: 85%;
+  text-shadow: 5px 7.5px 10px rgba(0, 0, 0, 0.27);
+
+}
+.cover-container{
+  position: relative;
+  width:100%;
+  height:1080px;
+  top:0px;
+  left:0px;
+  z-index: 3;
+
+}
+.cover-img{
+	position: relative;
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-position: center bottom;
+	background-image: url('http://cdn.allwallpaper.in/wallpapers/2560x1600/7451/wakatobi-beaches-islands-ocean-paradise-2560x1600-wallpaper.jpg');
+	background-size: cover;
+}
+
+.section {
+  padding: 30px 0;
+  position: relative;
+  background-color: #FFFFFF;
+}
